@@ -420,7 +420,6 @@
             background-color: rgb(51, 53, 53);
             height: 650px;
             color: white;
-            border: 2px solid blue;
         }
         div .footer img{
             width: 100%;
@@ -456,6 +455,12 @@
             left: 80%;
             box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
             border-radius: 15%;
+            transition: width 2s, transform 2s;
+        }
+        .yellow-box:hover{
+            transform: rotateX(90deg);
+            width: 40%;
+            top: -10%;
         }
         .yellow-box2{
             background-color: rgb(248, 211, 3);
@@ -466,6 +471,13 @@
             left: -20%;
             box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
             border-radius: 15%;
+            transition: width 2s height 2s,
+        }
+        .yellow-box2:hover{
+            width: 5%;
+            height: 40%;
+            top: 78%;
+            left: -4%;
         }
         #footer-boxes{
             display: flex;
@@ -1569,7 +1581,7 @@
         font-family: sans-serif;
     }
     .nav1-item1{
-        width: 20%;
+        width: 23%;
         height: 100%;
         margin: 0px;
         align-self: flex-start;
@@ -1836,7 +1848,7 @@
         position: absolute;
         top: 650%;
         right: 0px;
-        left: 147%;
+        left: 149%;
         border-radius: 8px;
         padding-left: 2%;
         padding-top: 0px;
@@ -1879,7 +1891,6 @@
         top: 150px;
         padding: 0px;
         margin: 0px 0px 0px -6px;
-
         }
         
         .flex-item {
@@ -1892,6 +1903,10 @@
             background-color: white;
         
         }
+        #sectionb-image {
+            width: 100%;
+            height: 100%;
+        }
         .sectionb{
             background-color: rgb(255, 196, 2);
             height:240px;
@@ -1903,8 +1918,8 @@
         .sectionb-image{
             position: absolute;
             left: 70%;
-            height: 8%;
-            top: 32.08%;
+            height: 6.4%;
+            top: 29.9%;
             box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
         }
         .sectionb-image:hover{
@@ -1970,7 +1985,7 @@
         }
         div .footer img{
             width: 100%;
-            height: 45%;
+            height: 545px;
             opacity: 50%;
             box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
         }
@@ -1990,7 +2005,7 @@
             opacity: 100%;
             position: absolute;
             left: 68%;
-            top: 60%;
+            top: 67%;
             box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.7);
         }
         .yellow-box{
@@ -2008,7 +2023,7 @@
             width: 30%;
             height: 5%;
             position: absolute;
-            top: 78%;
+            top: 76%;
             left: -20%;
             box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
             border-radius: 15%;
@@ -2033,7 +2048,6 @@
             top: -30%;
             font-size: 150%;
             text-align: left;
-            border: 2px solid blue;
             color: rgb(190, 190, 190);
         }
         #lower-line-height{
@@ -2069,7 +2083,6 @@
             position: relative;
             top: 0%;
             box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
-
         }
         .flex-item2:hover{
             cursor: pointer;
@@ -2207,7 +2220,7 @@
         .flex-container3 {
             display: -webkit-flex;
             display: flex;
-            flex-direction: column;
+            flex-direction: column; 
             width: 100%;
             height: 800px;
             align-items: center;
@@ -2222,7 +2235,6 @@
             width: 78%;
             height: 20%;
             margin: 0px;
-            border: 2px solid;
         }
         .flex-item3-box{
             border: 2px solid rgb(128, 128, 128, 0.2);
@@ -2291,7 +2303,6 @@
             position: relative;
             top: 0px;
             font-size: 90%;
-            border: 2px solid blue;
         }
         
         .flex-itemf {
